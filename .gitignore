@@ -1,6 +1,6 @@
-*
-!.gitignore
-!*.kicad_pro
-!*.kicad_sch
-!*.kicad_pcb
-!README.md
+*.zip
+fp-*
+.DS_Store
+*.kicad_prl
+~*
+panelized
