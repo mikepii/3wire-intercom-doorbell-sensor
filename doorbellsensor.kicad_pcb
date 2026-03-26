@@ -217,7 +217,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-5, 5 pins, pitch 5mm, size 25x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-5 pitch 5mm size 25x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J1"
-			(at 24 4.5 0)
+			(at -4.075 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "f014e6a2-b10c-48b2-8b52-1819edf746ac")
 			(effects
@@ -867,7 +867,7 @@
 		(descr "Relay Omron G5V-1, see http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf")
 		(tags "Relay Omron G5V-1")
 		(property "Reference" "K2"
-			(at -2.5925 6.4575 180)
+			(at 7.9825 4.9825 180)
 			(layer "F.SilkS")
 			(uuid "1157d895-1ad4-4961-a2d1-7e67b9a8c7e7")
 			(effects
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Value" "G5V-1-DC5"
-			(at 10.9075 4.9575 180)
+			(at -2.5175 4.9825 180)
 			(layer "F.SilkS")
 			(uuid "4ba7ae36-385e-443c-8ed5-fe49ad255d85")
 			(effects
@@ -1263,7 +1263,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 3 -3.5 180)
+			(at 1.975 4.075 180)
 			(layer "F.SilkS")
 			(uuid "acc1c1bc-220e-4531-859b-c43749fd85ff")
 			(effects
@@ -1274,7 +1274,7 @@
 			)
 		)
 		(property "Value" "22 uF"
-			(at 6.5 -2 0)
+			(at 0.475 -3.925 0)
 			(layer "F.SilkS")
 			(uuid "bd21ef1d-b871-4484-9444-f942d1011e04")
 			(effects
@@ -2620,7 +2620,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
-			(at 5.08 2.5 0)
+			(at 5.08 -2.575 0)
 			(layer "F.SilkS")
 			(uuid "83ce7af3-cc79-4cd7-8da1-8e933d99218c")
 			(effects
@@ -2631,7 +2631,7 @@
 			)
 		)
 		(property "Value" "1N4003"
-			(at 5.08 -2.5 0)
+			(at 5.105 2.925 0)
 			(layer "F.SilkS")
 			(uuid "66ecb767-5feb-40a4-bbd0-9787502ffc66")
 			(effects
@@ -2982,13 +2982,13 @@
 		(uuid "928efdf2-4a6e-4249-bb1a-63d800f6e91d")
 	)
 	(gr_text "1"
-		(at 100.5 130 0)
+		(at 99.525 131.925 0)
 		(layer "F.SilkS")
 		(uuid "4b97ca52-8643-4747-a9f6-8dc6458fb859")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2.032 2.032)
+				(thickness 0.254)
 			)
 			(justify left bottom)
 		)
@@ -3007,21 +3007,33 @@
 		)
 	)
 	(gr_text "NC"
-		(at 100 115 0)
+		(at 98.025 116.425 0)
 		(layer "F.SilkS")
 		(uuid "544d1de1-b3e2-42f1-944f-cbd0eaf31204")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2.032 2.032)
+				(thickness 0.254)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "NO"
-		(at 100 120 0)
+		(at 98.025 121.425 0)
 		(layer "F.SilkS")
 		(uuid "714758ad-5098-47bd-a019-f4a8b9d424cc")
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Rev. 1"
+		(at 101.525 146.425 0)
+		(layer "F.SilkS")
+		(uuid "d9664032-3054-45cb-ba17-4a4b464acd63")
 		(effects
 			(font
 				(size 1 1)
@@ -3031,25 +3043,25 @@
 		)
 	)
 	(gr_text "C"
-		(at 100.5 125 0)
+		(at 99.025 126.925 0)
 		(layer "F.SilkS")
 		(uuid "e62fdd78-a485-4cac-9480-f949d9ec6ad4")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2.032 2.032)
+				(thickness 0.254)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "X"
-		(at 100.5 135 0)
+		(at 99.525 136.925 0)
 		(layer "F.SilkS")
 		(uuid "f8a28c31-b0dd-4913-a912-5397b8a86256")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2.032 2.032)
+				(thickness 0.254)
 			)
 			(justify left bottom)
 		)
