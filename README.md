@@ -1,4 +1,4 @@
-Circuit (KiCad project) to detect door chime or warble tone from a PK543A or similar
+Circuit (KiCad project) to detect door chime or warble tone from a IA543, PK543A, or similar
 apartment intercom amplifier.
 To be wired in parallel with apartment intercom.
 
